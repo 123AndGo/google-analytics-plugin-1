@@ -43,7 +43,7 @@
   </platform>
 
   <platform name="android">
-    <dependency id="com.google.playservices" url="https://github.com/MobileChromeApps/google-play-services.git" commit="master" />
+    <framework src="android/libs/google-play-services_lib" custom="true" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="UniversalAnalytics">
