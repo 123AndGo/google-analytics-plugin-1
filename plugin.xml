@@ -43,7 +43,7 @@
   </platform>
 
   <platform name="android">
-    <framework src="android/libs/google-play-services_lib" custom="true" />
+    <framework src="android/google-play-services_lib" custom="true" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="UniversalAnalytics">
